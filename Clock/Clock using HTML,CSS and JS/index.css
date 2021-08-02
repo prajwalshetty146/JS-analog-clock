@@ -1,0 +1,40 @@
+#clockContainer{
+    position: relative;
+    margin: auto;
+    border: 2px solid black;
+    height: 40vw;
+    width: 40vw;
+    background: url(roman-numerals-png-42134.png) no-repeat;
+    background-size: 100%;
+}
+
+#hour, #minute, #seconds{
+    position:absolute;
+    background:black;
+    border-radius: 10px;
+    transform-origin: bottom ;
+}
+
+#hour{
+    width: 1.6%;
+    height: 20%;
+    top: 30%;
+    left: 49.25%;
+    opacity: 0.8;
+}
+
+#minute{
+    width: 1.2%;
+    height: 38%;
+    top: 12.1%;
+    left: 49.49%;
+    opacity: 0.8;
+}
+
+#seconds{
+    width: 0.5%;
+    height: 40%;
+    top: 10.5%;
+    left: 49.8%;
+    opacity: 0.8;
+}
